@@ -1,0 +1,61 @@
+/* Comentarios en CSS */
+/* Selector universal
+ *{
+    background-color: blue;
+} */
+
+/* Reseteo de estilos básica basiquísima */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    --color-de-acento: #D81B60;
+    --color-de-fondo: #FCE4EC;
+    --color-de-texto: #212121;
+    --color-de-titulos: #5A9CB5;
+    --borde-redondeado: 5%;
+}
+
+#titulo-principal{
+    color: burlywood;
+}
+
+/* Selector de tipo o etiqueta */
+h1{
+    color: var(--color-de-titulos);
+    text-align: center;
+}
+
+/* ¿Cómo se controla el orden de CSS
+1. Importancia
+2. Especificidad
+3. Orden de las fuentes: hojas estilo externa, estilos en línea, embebido (interno).
+
+Valores de especificidad, de mayor a menor:
+1. !important - Le gana a todos, mayor especificidad, pero rompe las reglas. NO ES UNA BUENA PRÁCTICA.
+2. Estilos en línea -- Valor de 1000
+3. ID -- Valor de 100
+4. Clases, atributos, y pseudoclases -- Valor de 10
+5. Selectores de tipo y pseudoelementos -- Valor de 1
+6. Selector universdal -- Valor de 0. 
+*/
+
+/* Suma de especificidad: selector de etiqueta + id= 101
+h1#titulo-principal{
+    color: greenyellow;
+} */
+
+.listas-ordenadas{
+    font-family: Arial, Helvetica, sans-serif;
+    color:aquamarine;
+    padding: 50px 20px 90px 5px; /* TRouBLe */
+    border: 3px solid darkblue;
+    margin: 100px;
+}
+
+
+
