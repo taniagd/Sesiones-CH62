@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ¡Contáctanos! </title>
+</head>
+<body>
+    <header>
+        <!-- <img src="" alt=""> Aquí va ir un logo-->
+        <nav>
+            <ul><!-- Lista desordenada -->
+            <li> Capítulos icónicos </li><!-- Elementos de la lista -->
+            <li> Multiversos </li>
+                <ol>
+                    <li> Emo </li>
+                    <li> Moda </li>
+                </ol>
+            <li> Datos random </li>
+            <li> Pedir un milagro </li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1> Para recibir colaboraciones o patrocinios, llena este formulario</h1>
+            <form action="https://formsubmit.co/tania.gayosso@idr.edu.mx" method="post"> <!-- El valor del atributo action es la url a donde mandaremos la info del formulario -->
+            <fieldset> <!-- Permite agrupar campos de información -->
+                <legend> Info básica </legend>
+                <label for="nombre">
+                    Nombre(s): <input id="nombre" type="text" placeholder="Blanca" name="nombre" required>
+                </label><br>
+                <label for="apellidos">
+                    Apellidos: <input id="apellidos" type="text" placeholder="Pérez" required>
+                </label><br>
+                <label for="correo">
+                    Correo electrónico: <input id="correo" type="email">
+                </label><br>
+                <label for="telefono">
+                    Teléfono:<input type="tel" id="telefono" placeholder="5653545277">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend> Datos de colaboración </legend>
+                <span> ⚠ Si deseas colaborar, tienes que probar que eres un verdadero fan de La Rosa de Guadalupe ⚠ </span><br>
+                <label for="capitulo">
+                    Número de capítulo favorito: <input id="capitulo" type="number" min="1" max="2279">
+                </label><br>
+                <label for="fecha">
+                    Fecha de colaboración: <input type="date" id="fecha">
+                </label><br>
+                <span> Lugar de colaboración: </span>
+                <label for="casino">
+                    <input id="casino" type="radio" name="lugar-de-colaboracion">Casino "La Imperial"
+                </label>
+                <label for="parque">
+                    <input id="parque" type="radio" name="lugar-de-colaboracion"> Parque "La Mexicana"
+                </label>
+                <label for="zocalo">
+                    <input id="zocalo" type="radio" name="lugar-de-colaboracion"> Zócalo 
+                </label>
+            </fieldset>
+
+            <label for="verificacion">
+                <input id="verificacion" type="checkbox" required>Acepto términos y condiciones
+            </label>
+            <br>
+            <!-- Botón con input del tipo submit -->
+            <!-- <input type="submit"> -->
+            <!-- Etiqueta semántica para botón -->
+            <button> Enviar 🌹 </button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
