@@ -1,0 +1,14 @@
+/* Unidades de medida
+Unidades absolutas:
+Son medidas fijas que no cambian. No son relativas a nada más.
+
+Píxeles - px: Se utiliza para bordes y sombras
+
+Unidades relativas:
+Son medidas más flexibles, no tiene un tamaño fijo; su tamaño depende de ciertas características. 
+Porcentaje - %: Ocupar el ancho del contenedor padre. Se utiliza en anchos. 
+Rem - rem: Unidad relativa a la fuente. Ejemplos donde se usa: font-size, margin, padding. 
+Em - em: Unidad relativa a la fuente. El tamaño de letra del elemento padre.
+vh/vw: Basado en tamaños de ventana. 
+
+*/
