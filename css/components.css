@@ -1,0 +1,23 @@
+.barra{
+    background-color: salmon;
+}
+
+.boton-personalizado{
+    background-color: #d81B60;
+    border: #d185d1;
+    border-radius: 50px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.boton-personalizado:hover{
+    background-color: purple;
+}
+
+.tarjeta-productos{
+    background-color: #6f42c1;
+    color: white;
+    border: 2px solid white;
+    padding: 40px;
+    text-align: center;
+}
