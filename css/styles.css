@@ -20,6 +20,11 @@
     --borde-redondeado: 5%;
 }
 
+body{
+    background-color: var(--color-de-fondo);
+    font-family: "Sedgwick Ave", cursive;
+}
+
 #titulo-principal{
     color: burlywood;
 }
@@ -41,7 +46,7 @@ Valores de especificidad, de mayor a menor:
 3. ID -- Valor de 100
 4. Clases, atributos, y pseudoclases -- Valor de 10
 5. Selectores de tipo y pseudoelementos -- Valor de 1
-6. Selector universdal -- Valor de 0. 
+6. Selector universal -- Valor de 0. 
 */
 
 /* Suma de especificidad: selector de etiqueta + id= 101
@@ -56,6 +61,5 @@ h1#titulo-principal{
     border: 3px solid darkblue;
     margin: 100px;
 }
-
 
 
